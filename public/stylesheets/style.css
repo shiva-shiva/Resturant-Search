@@ -1,0 +1,251 @@
+
+.header-title{
+  padding:40px;
+}
+a {
+  color: #00B7FF;
+}
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+
+body {
+  background-color: #eee
+}
+.navbar-light .navbar-brand {
+  color: rgb(255 255 255 / 90%);
+}
+.navbar-brand {
+  position: absolute;
+  left: 45%;
+  margin-left: -50px !important;  /* 50% of your logo width */
+  display: block;
+  font-size:45px;
+  font-family: 'Dancing Script', cursive;
+}
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 6px;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(0 0 0);
+  font-size:20px;
+  padding-right:15px;
+  font-weight: 500;
+}
+
+.bg-light {
+  background: linear-gradient(to right, #ffffff, #812534);
+}
+.navbar-collaps {
+  padding: 10px, 0px, 10px, 0px;
+}
+
+
+.card {
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 10px
+}
+
+.card-text {
+  padding-bottom:10px;
+    font-size:15px
+}
+.header-text{
+  font-size: 25px;
+  font-weight: bold;
+  text-align:center;
+  padding-top:20px;
+  color: #05882c;
+}
+.guarantee {
+    color: #05882c;
+    margin-left: 4px;
+    font-weight: 700;
+    padding-right:10px;
+}
+
+hr {
+    margin: 0.2rem 0;
+    color: #bfbebe
+}
+
+.buttons button {
+    text-transform: uppercase;
+    font-size: 12px;
+    border-radius: 2px
+}
+.font-weight-bold{
+  font-size: 18px;
+  font-weight: bold;
+  padding:10px 0px 8px 0px;
+}
+
+/*form */
+
+.post-food {
+    max-width: 800px;
+    margin: 50px auto;
+    position: relative;
+  
+  }
+  .post-food .title {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 3.2em;
+    line-height: 48px;
+    padding-bottom: 60px;
+       color: #5543ca;
+      background: #5543ca;
+      background: -webkit-linear-gradient(left,#28a733  0%,#5543ca 100%) !important;
+      -webkit-background-clip: text !important;
+      -webkit-text-fill-color: transparent !important;
+  }
+  
+  .post-form .form-field {
+    position: relative;
+    margin: 32px 0;
+  }
+  .post-form .input-text {
+    display: block;
+    width: 100%;
+    height: 50px;
+    border-width: 0 0 2px 0;
+    border-color: #5543ca;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+  }
+  .post-form .input-text:focus {
+    outline: none;
+  }
+
+  .post-form .submit-btn {
+    display: inline-block;
+    background-color: #000;
+     background-image: linear-gradient(125deg,#28a733,#064497);
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    width:200px;
+    cursor: pointer;
+  }
+  .label2{
+    padding-bottom:20px;
+    color:#1b00c7;
+  }
+
+  /* flip card */
+
+  .flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: #e1cbcf;
+    color: black;
+    transform: rotateY(180deg);
+  }
+
+  .Dish_Name{
+    padding-top:25px;
+    font-size:22px;
+    font-weight:bold;
+    font-family: 'cursive';
+  }
+  .Dish_Description{
+    padding:18px 8px 4px 8px;
+    font-family: 'Dancing Script', cursive;
+    font-size:20px;
+  }
+
+  /*search*/
+
+.padding {
+    padding-top: 1.5rem;
+    padding-bottom: 1.3rem;
+}
+
+body {
+    background-color: #f8fafe
+}
+
+.food-form .form-group {
+    border: 1px solid #9ff0c8;
+    padding: 10px
+}
+
+.food-form .form-group input {
+    height: 40px !important;
+    border: transparent
+}
+
+.form-control {
+    height: 80px !important;
+    background: #fff !important;
+    color: #3a4348 !important;
+    font-size: 18px;
+    border-radius: 0px;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important
+}
+
+.px-4 {
+    padding-left: 1.5rem !important
+}
+
+.food-form .form-group .search-food {
+    background: #22d47b;
+    border: 2px solid #22d47b;
+    color: #fff;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0
+}
+.form-select{
+  border:1px solid #22d47b;
+  
+}
+
+.title-home{
+  padding-top:65px;
+}

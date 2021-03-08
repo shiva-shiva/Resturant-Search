@@ -1,0 +1,19 @@
+
+ <center><h3 class="header-title">Hover over the image below to see recipe</h3><center>
+<div class="row g-3">
+    {{#each data}}
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+            <img src="./images/{{this.Img_Link}}" style="width:300px;height:300px;">
+            </div>
+            <div class="flip-card-back">
+            <h3  class="Dish_Name">{{this.Dish_Name}}</h3> 
+            <hr>
+            <p  class="Dish_Description">{{this.Dish_Description}}</p> 
+            <button class="btn btn-dark" onclick="location.href = '{{this.Make_it_at_Home}}';" >Make it at Home</a></button>
+            </div>
+        </div>
+        </div>
+    {{/each}}
+</div>
